@@ -1,0 +1,179 @@
+# Are we Agile yet? Agile project management practices in a multinational survey among clinical researchers using Computerized Adaptive Testing: A reproducible approach framework
+
+Sabrina Bernardez
+Joao Vissoci
+Ricardo Pietrobon
+
+## Abstract
+<!-- will write at the end --> 
+
+
+## Introduction
+Agile has taken over the software world, now quickly spreading to management practices through movements such as Lean Startup
+Clinical research apparently untouched
+
+<!-- 
+
+While agility can be seen as a means to an end, a number of approaches have been proposed to quantify agility. Agility Index Measurements (AIM)[25] score projects against a number of agility factors to achieve a total. The similarly named Agility Measurement Index,[26] scores developments against five dimensions of a software project (duration, risk, novelty, effort, and interaction). Other techniques are based on measurable goals.[27] Another study using fuzzy mathematics[28] has suggested that project velocity can be used as a metric of agility. There are agile self-assessments to determine whether a team is using agile practices (Nokia test,[29] Karlskrona test,[30] 42 points test[31]).
+While such approaches have been proposed to measure agility, the practical application of such metrics is yet to be seen. There is agile software development ROI data available from the CSIAC ROI Dashboard.[32]
+
+^ "David Bock's Weblog : Weblog". Jroller.com. Retrieved 2 April 2010.
+^ "Agility measurement index". Doi.acm.org. Retrieved 2 April 2010.
+^ Peter Lappo; Henry C.T. Andrew. "Assessing Agility". Retrieved 6 June 2010.
+^ Kurian, Tisni (2006). Agility Metrics: A Quantitative Fuzzy Based Approach for Measuring Agility of a Software Process, ISAM-Proceedings of International Conference on Agile Manufacturing'06(ICAM-2006), Norfolk, U.S.
+^ Joe Little (2 December 2007). "Nokia test, A scrum-specific test". Agileconsortium.blogspot.com. Retrieved 6 June 2010.
+^ Mark Seuffert, Piratson Technologies, Sweden. "Karlskrona test, A generic agile adoption test". Piratson.se. Retrieved 6 June 2010.
+^ "How agile are you, a scrum-specific test". Agile-software-development.com. Retrieved 6 June 2010.
+^ CSIAC ROI Dashboard Retrieved 11 November 2011.
+
+http://www.publishing.waldenu.edu/cgi/viewcontent.cgi?article=1046&context=ijamt
+
+
+ -->
+
+<!-- One of the early studies reporting gains in quality, productivity, and business satisfaction by using Agile methods was a survey conducted by Shine Technologies from November 2002 to January 2003.[33] A similar survey conducted in 2006 by Scott Ambler, the Practice Leader for Agile Development with IBM Rational's Methods Group reported similar benefits.[34] Others claim that agile development methods are still too young to require extensive academic proof of their success.[35] -->
+
+
+<!-- 
+Some things that may negatively impact the success of an agile project are: Large-scale development efforts (>20 developers), though scaling strategies[37] and evidence of some large projects[41] have been described. Distributed development efforts (non-colocated teams). Strategies have been described in Bridging the Distance[42] and Using an Agile Software Process with Offshore Development.[43] Forcing an agile process on a development team.[44] Mission-critical systems where failure is not an option at any cost (e.g. software for air traffic control). -->
+
+Objective is to conduct an international survey using CAT and evaluate 
+
+
+## Methods
+
+
+
+### Survey sample
+PubMed trials
+clintrials.gov email addresses
+geolocation
+facebook app
+
+
+
+### Survey methodology
+Data collection through Concerto
+10.000 email addresses
+reward with a white paper on Agile
+=======
+5000 email addresses
+
+reward with white paper on Agile methodologies for clinical trials, as well as access to data, scripts and dynamic report once article is accepted for publication
+
+
+
+### CAT to Agile vs. centralized model
+Traditional vs. agile in each item, all options 
+
+
+
+### Geolocation enrichment
+
+
+
+### Clinicaltrials.gov data
+number authors
+completion
+funding
+RDF
+
+
+### Reproducible research framework
+github for paper, script, and data
+figshare for data citation
+dynamic site with results
+CC license
+
+
+### Data analysis
+
+R survey package
+ggplot2
+ggmaps
+lsa abstract linkedct??
+IRT
+
+
+## Results
+
+
+## Discussion
+
+
+### Primacy and summary
+
+### Result 1
+
+### Result 2
+
+### Result 3
+
+### Result 4
+
+### Limitations
+
+### Future
+
+
+# Appendix 1 - [Agile principles](http://agilemanifesto.org/principles.html) summarized in key words
+
+1. *Customer focus*: Our highest priority is to satisfy the customer through early and continuous delivery of valuable software.
+2. *Adapting*: Welcome changing requirements, even late in development. Agile processes harness change for the customer's competitive advantage. 
+3. *Working cycles*: Deliver working software frequently, from a couple of weeks to a couple of months, with a preference to the shorter timescale.
+4. *Teamwork*: Business people and developers must work together daily throughout the project. 
+5. *Team support*: Build projects around motivated individuals. Give them the environment and support they need, and trust them to get the job done. 
+6. *Communication*: The most efficient and effective method of conveying information to and within a development team is face-to-face conversation. 
+7. *Functioning product*: Working software is the primary measure of progress. 
+8. *Iterative cycles*: Agile processes promote sustainable development. The sponsors, developers, and users should be able to maintain a constant pace indefinitely. 
+9. *Quality*: Continuous attention to technical excellence and good design enhances agility. 
+10. *Simplicity*: Simplicity--the art of maximizing the amount of work not done--is essential. 
+11. *Self-organization*: The best architectures, requirements, and designs emerge from self-organizing teams. 
+12. *Reflexivity*: At regular intervals, the team reflects on how to become more effective, then tunes and adjusts its behavior accordingly.
+
+# Apendix 2 - Initial item bank
+
+Questions were created using positively and negatively stated questions
+
+
+## Focus on trial stakeholders
+1. During data collection our main focus is on the problems clinical research coordinators face while collecting data
+1. During data collection our main focus is on following the orientations provided by the central project management coordination
+1. During data collection our main focus is on ensuring that Principal Investigators are satisfied with the way the trial is conducted
+2. Clinical research coordinators are constantly heard in relation to the problems they are facing on a day-to-day basis
+
+## Adapting
+* We are constantly making changes in our processes to ensure new barriers cannot stand in the way of completing the trial 
+* We rarely make any changes to the way our data collection is conducted, unless central project management determines it centrally
+* Every new problem in the trial generates an immediate reaction so that we can constantly adapt our processes to better function
+* Our processes to run the trial follow a very stable process, which is not changed even if we face any problems during trial execution
+
+
+## Working cycles
+* We are constantly running small experiments to improve our processes to face daily challenges in our trial.
+* After we test a new process to address a problem running our trial, we evaluate whether it worked or not. If it worked, we implement it immediately, if not, we start planning for another short test
+* 
+
+## Teamwork
+* The team running the trial is high on teamwork and supporting each other
+* Problems faced by anyone in our trial team are immediately addressed by other team members and managers
+* Each individual in our trail team works independently and is in charge of finding solutions to problems that might occur in the process of conducting the trial
+
+
+## Team support
+
+## Communication
+
+## Functioning product
+
+## Iterative cycles
+
+## Quality
+
+## Simplicity
+
+## Self-organization
+
+## Reflexivity
+
+## Learning needs
